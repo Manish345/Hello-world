@@ -2,7 +2,7 @@ import logging
 from selenium import webdriver
 import os
 
-driversPath = os.path.join(C:\\Users\\manish2\\source\\Hello-world,"\\Drivers\\chromedriver")
+driversPath = os.path.join(os.getcwd(),"\\Users\\manish2\\source\\Hello-world\\Drivers\\chromedriver")
 #driversPath = os.path.join(os.getcwd(),"\\Drivers\\chromedriver")
 chromeDriverPath = os.path.normpath(driversPath)
 print(chromeDriverPath)
