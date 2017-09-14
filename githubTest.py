@@ -2,6 +2,13 @@ import logging
 from selenium import webdriver
 import os
 
+import sys
+sys.stdout.flush("Heeloooo Python")
+sys.stdout.flush("Heeloooo Python")
+sys.stdout.flush("Heeloooo Python")
+sys.stdout.flush("Heeloooo Python")
+
+
 driversPath = os.path.join(os.getcwd(),"\\Drivers\\chromedriver")
 chromeDriverPath = os.path.normpath(driversPath)
 print(chromeDriverPath)
