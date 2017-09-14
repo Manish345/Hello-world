@@ -5,6 +5,7 @@ import os
 driversPath = os.path.join(os.getcwd(),"\\Drivers\\chromedriver")
 chromeDriverPath = os.path.normpath(driversPath)
 print(chromeDriverPath)
+logging.info(chromeDriverPath)
 
 driver = webdriver.Chrome(chromeDriverPath)
 #driver = webdriver.Chrome()
