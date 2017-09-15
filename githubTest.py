@@ -1,6 +1,6 @@
 import logging
 from selenium import webdriver
-import os, sys
+import os, sys, pytest
 
 # driversPath = os.path.join(os.getcwd(),"\\Users\\manish2\\source\\Hello-world\\Drivers\\chromedriver")
 driversPath = os.path.join(os.getcwd(),"Drivers\\chromedriver")
@@ -22,3 +22,5 @@ print("GitHUb is working fine")
 logging.info("GitHUb is working fine")
 logging.info("GitHUb is working fine")
 logging.info("GitHUb is working fine")
+
+pytest.main(["-s","githubTest.py"])
