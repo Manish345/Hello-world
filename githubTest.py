@@ -13,7 +13,10 @@ logging.info(chromeDriverPath)
 # driver.maximize_window()
 # print("Running Selenium code")
 
-logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
+stderrLogger=logging.StreamHandler()
+stderrLogger.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
+logging.getLogger().addHandler(stderrLogger)
 
 print("GitHUb is working fine")
 logging.info("GitHUb is working fine")
