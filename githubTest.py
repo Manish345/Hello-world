@@ -23,4 +23,10 @@ logging.info("GitHUb is working fine")
 logging.info("GitHUb is working fine")
 logging.info("GitHUb is working fine")
 
+
+def test_logging():
+  logging.info("Run test_logging()")
+  logging.info("Run test_logging()")
+  logging.info("Run test_logging()")
+  logging.info("Run test_logging()")
 pytest.main(["-s","githubTest.py"])
