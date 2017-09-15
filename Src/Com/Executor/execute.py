@@ -14,9 +14,9 @@ htmlReportPath = "C:\\Users\\manish2\\Documents\\LiClipse_Workspace\\Rough_WorkS
 xmlReportPath = "C:\\Users\\manish2\\Documents\\LiClipse_Workspace\\Rough_WorkSpace\\Src\\Com\\Reports\\xmlTestReport.xml"
 
 # path1 = os.getcwd()
-htmlpath = os.path.join(os.getcwd(),"..\\Reports\\htmlTestReport.html")
+htmlpath = os.path.join(os.getcwd(),"Src\\Com\\Reports\\htmlTestReport.html")
 htmlReportPath = os.path.normpath(htmlpath)
-xmlpath = os.path.join(os.getcwd(),"..\\Reports\\xmlTestReport.xml")
+xmlpath = os.path.join(os.getcwd(),"Src\\Com\\Reports\\xmlTestReport.xml")
 xmlReportPath = os.path.normpath(xmlpath)
 logging.info(htmlReportPath)
 logging.info(xmlReportPath)
