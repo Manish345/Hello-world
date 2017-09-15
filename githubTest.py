@@ -11,6 +11,8 @@ logging.info(chromeDriverPath)
 driver = webdriver.Chrome(chromeDriverPath)
 driver.get("http://www.google.co.in")
 driver.maximize_window()
+while 1:
+  pass
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
