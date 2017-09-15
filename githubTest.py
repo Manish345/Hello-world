@@ -12,8 +12,6 @@ driver = webdriver.Chrome(chromeDriverPath)
 driver.get("http://www.google.co.in")
 driver.maximize_window()
 print("Running Selenium code")
-while 1:
-  pass
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
