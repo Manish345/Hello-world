@@ -13,6 +13,7 @@ root.addHandler(ch)
 
 driversPath = os.path.join(os.getcwd(),"Drivers\\chromedriver")
 chromeDriverPath = os.path.normpath(driversPath)
+print(chromeDriverPath)
 
 # driver = webdriver.Chrome(chromeDriverPath)
 # driver.get("http://www.google.co.in")
