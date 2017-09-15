@@ -22,4 +22,4 @@ logging.info(htmlReportPath)
 logging.info(xmlReportPath)
 
 # pytest.main(["--junit-xml=C:\Users\manish2\Documents\LiClipse Workspace\Prj","-s","-v", "--pyargs", "Com.Testcases.Test_RoughWork"])
-pytest.main(["--html="+htmlReportPath,"--junitxml="+xmlReportPath,"-s", "-v", "--pyargs", "Com.Testcases.Test_Pyspark"])
+pytest.main(["--html="+htmlReportPath,"--junitxml="+xmlReportPath,"-s", "-v", "--pyargs", "Src.Com.Testcases.Test_Pyspark"])
